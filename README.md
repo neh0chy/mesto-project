@@ -14,4 +14,4 @@
 
 **Демо**
 ---
-Для демонстрации работоспособности проект опубликован по [ссылке](https://neh0chy.github.io/russian-travel/index.html).
+Для демонстрации работоспособности проект опубликован по [ссылке](https://neh0chy.github.io/mesto-project/index.html).
