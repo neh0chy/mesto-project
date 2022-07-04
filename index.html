@@ -26,45 +26,45 @@
     </section>
     <section class="cards">
         <figure class="card">
-          <img class="card__image" src="images/photo-moscow.jpg" alt="Москва">
+          <img class="card__image" src="images/photo-moscow.jpg" alt="Московский кремль с иллюминацией">
           <figcaption class="card__info">
             <h2 class="card__title">Москва</h2>
-            <button class="card__like"></button>
+            <button class="card__like" type="button"></button>
           </figcaption>
         </figure>
         <figure class="card">
-          <img class="card__image" src="images/photo-spb.jpg" alt="Санкт-Петербург">
+          <img class="card__image" src="images/photo-spb.jpg" alt="Разводной мост в Санкт-Петербурге на закате">
           <figcaption class="card__info">
             <h2 class="card__title">Санкт-Петербург</h2>
-            <button class="card__like"></button>
+            <button class="card__like" type="button"></button>
           </figcaption>
         </figure>
         <figure class="card">
-          <img class="card__image" src="images/photo-kazan.jpg" alt="Казань">
+          <img class="card__image" src="images/photo-kazan.jpg" alt="Мечеть Кул Шариф в Казане на фоне неба">
           <figcaption class="card__info">
             <h2 class="card__title">Казань</h2>
-            <button class="card__like"></button>
+            <button class="card__like" type="button"></button>
           </figcaption>
         </figure>
         <figure class="card">
-          <img class="card__image" src="images/photo-kaliningrad.jpg" alt="Калининград">
+          <img class="card__image" src="images/photo-kaliningrad.jpg" alt="Разноцветные дома в Калининграде">
           <figcaption class="card__info">
             <h2 class="card__title">Калининград</h2>
-            <button class="card__like"></button>
+            <button class="card__like" type="button"></button>
           </figcaption>
         </figure>
         <figure class="card">
-          <img class="card__image" src="images/photo-sahalin.jpg" alt="Сахалин">
+          <img class="card__image" src="images/photo-sahalin.jpg" alt="Панорама острова Сахалин вечером">
           <figcaption class="card__info">
             <h2 class="card__title">Сахалин</h2>
-            <button class="card__like"></button>
+            <button class="card__like" type="button"></button>
           </figcaption>
         </figure>
         <figure class="card">
-          <img class="card__image" src="images/photo-vladivostok.jpg" alt="Владивосток">
+          <img class="card__image" src="images/photo-vladivostok.jpg" alt="Золотой мост во Владивостоке в тумане">
           <figcaption class="card__info">
             <h2 class="card__title">Владивосток</h2>
-            <button class="card__like"></button>
+            <button class="card__like" type="button"></button>
           </figcaption>
         </figure>
     </section>
@@ -76,14 +76,14 @@
   <div class="popup">
     <div class="popup__container">
       <h2 class="popup__title">Редактировать профиль</h2>
-      <form class="popup__form">
+      <form class="popup__form" name="popup__form">
         <fieldset class="popup__fieldset">
-          <input class="popup__input" type="text" placeholder="Имя">
-          <input class="popup__input" type="text" placeholder="О себе">
+          <input class="popup__input" type="text" name="popup__username" placeholder="Имя">
+          <input class="popup__input" type="text" name="popup__description" placeholder="О себе">
         </fieldset>
         <button class="popup__button-save" type="submit">Сохранить</button>
       </form>
-      <button class="popup__button-close" type="submit"></button>
+      <button class="popup__button-close" type="button"></button>
     </div>
   </div>
 </body>

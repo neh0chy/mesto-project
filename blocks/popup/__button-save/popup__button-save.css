@@ -10,6 +10,7 @@
   font-family: inherit;
   margin-top: 48px;
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .popup__button-save:hover {

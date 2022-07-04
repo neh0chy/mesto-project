@@ -5,6 +5,7 @@
   background-image: url(../../../images/heart-button.svg);
   background-color: rgba(0, 0, 0, 0);
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .card__like:hover {
