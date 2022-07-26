@@ -1,4 +1,4 @@
-// VARIABLES
+// ПЕРЕМЕННЫЕ
 const sectionProfile = document.querySelector('.profile');
 const popupProfile = document.querySelector('.popup_type_profile');
 const popupPlace = document.querySelector('.popup_type_place');
@@ -43,7 +43,7 @@ const initialCards = [
 ];
 
 
-// CODE SECTION TO HANDLE USER SUBMITS
+// ОБРАБОТКА ЗАПРОСОВ ПОЛЬЗОВАТЕЛЯ
 
 const popupFormProfile = popupProfile.querySelector('.popup__form');
 const popupFormPlace = popupPlace.querySelector('.popup__form');
@@ -55,7 +55,7 @@ function profileFormHandler(evt) {
   closePopup(popupProfile);
 }
 
-// CODE SECTION TO HANDLE NEW PLACE CREATION SUBMIT
+// ОБРАБОТКА САБМИТА ДЛЯ СОЗДАНИЯ НОВОЙ КАРТОЧКИ
 
 const placeInput = popupPlace.querySelector('.popup__input_field_name');
 const linkInput = popupPlace.querySelector('.popup__input_field_link');
@@ -73,7 +73,7 @@ function createCardHandler(evt) {
 }
 
 
-// CODE SECTION TO RENDER NEW CARD BY EVERY ARRAY ITERATION
+// РЕНДЕР НОВОЙ КАРТОЧКИ
 
 const cardTemplate = document.querySelector('.cards');
 
@@ -104,7 +104,7 @@ initialCards.forEach(function (item) {
 });
 
 
-// FUNCTION TO OPEN IMAGE VIEWER
+// ОТКРЫТИЕ ПРОСМОТРА ИЗОБРАЖЕНИЯ
 
 const viewerImage = popupImage.querySelector('.image-viewer__image');
 const viewerCaption = popupImage.querySelector('.image-viewer__caption');
@@ -118,7 +118,7 @@ function openImageViewer (evt) {
 }
 
 
-// FUNCTIONS TO OPEN AND CLOSE POPUPS
+// ОТКРЫТИЕ И ЗАКРЫТИЕ ПОПАПОВ
 
 function openPopup(popup) {
   popup.classList.add('popup_opened');
@@ -129,7 +129,7 @@ function closePopup(popup) {
 }
 
 
-// EVENT LISTENERS
+// СОБЫТИЯ НА КНОПКАХ
 
 popupFormProfile.addEventListener('submit', profileFormHandler);
 popupFormPlace.addEventListener('submit', createCardHandler);
