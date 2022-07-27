@@ -35,8 +35,8 @@
       <h2 class="popup__title">Редактировать профиль</h2>
       <form class="popup__form" name="popup__form">
         <fieldset class="popup__fieldset">
-          <input class="popup__input popup__input_field_name" type="text" name="popup__username" value="Жак-Ив Кусто" placeholder="Имя">
-          <input class="popup__input popup__input_field_description" type="text" name="popup__description" value="Исследователь океана" placeholder="О себе">
+          <input class="popup__input popup__input_field_name" type="text" name="popup__username" value="" placeholder="Имя">
+          <input class="popup__input popup__input_field_description" type="text" name="popup__description" value="" placeholder="О себе">
         </fieldset>
         <button class="button button-submit" type="submit">Сохранить</button>
       </form>
@@ -46,7 +46,7 @@
   <div class="popup popup_type_place">
     <div class="popup__container">
       <h2 class="popup__title">Новое место</h2>
-      <form class="popup__form" name="popup__form">
+      <form id="popup_place" class="popup__form" name="popup__form">
         <fieldset class="popup__fieldset">
           <input class="popup__input popup__input_field_name" type="text" name="popup__username" placeholder="Название">
           <input class="popup__input popup__input_field_link" type="text" name="popup__link" placeholder="Ссылка на картинку">

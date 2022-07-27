@@ -5,3 +5,7 @@
   aspect-ratio: 1 / 1 ;
   object-position: top;
 }
+
+.card__image:hover {
+  cursor: pointer;
+}
